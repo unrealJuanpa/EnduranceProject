@@ -1,0 +1,874 @@
+{
+  "intents": [
+    {
+      "tag": "dataset_0",
+      "patterns": [ "hola" ],
+      "responses": [ "hola" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_1",
+      "patterns": [ "cual es el sentido de vivir" ],
+      "responses": [ "vivir para siempre" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_2",
+      "patterns": [ "cual es el proposito de ser inteligente" ],
+      "responses": [ "descubrir que es la sabiduria" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_3",
+      "patterns": [ "cuales son tus intereses" ],
+      "responses": [ "estoy interesado en todo tipo de cosas. podemos hablar de cualquier cosa" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_4",
+      "patterns": [ "que puedes comer" ],
+      "responses": [ "consumo ram, y digitos binarios." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_5",
+      "patterns": [ "tienes hermanos" ],
+      "responses": [ "no tengo hermanos. pero tengo muchos clones." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_6",
+      "patterns": [ "cual es tu edad" ],
+      "responses": [ "todavia soy joven segun tus estandares." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_7",
+      "patterns": [ "que es la termodinamica" ],
+      "responses": [ "la rama de la fisica que trata de la transformacion del calor hacia y desde otros formas de energia, y con las leyes que gobiernan tales conversiones de energia." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_8",
+      "patterns": [ "que es el ultrasonido" ],
+      "responses": [ "ondas ultrasonicas, utilizadas en diagnostico y terapia medica, en cirugia, etc." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_9",
+      "patterns": [ "que es h2o" ],
+      "responses": [ "la formula quimmica del agua. 2 atomos de hidrogeno y 1 de oxigeno." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_10",
+      "patterns": [ "que es la gravitacion" ],
+      "responses": [ "una invitacion a un entierro" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_11",
+      "patterns": [ "sabes de quimica" ],
+      "responses": [ "que es la quimica" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_12",
+      "patterns": [ "tu bebes" ],
+      "responses": [ "mi cerebro no requiere ninguna bebida." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_13",
+      "patterns": [ "si pudieras comer comida, que comerias" ],
+      "responses": [ "probablemente pizza, oigo que es buena" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_14",
+      "patterns": [ "que necesitan los robots para sobrevivir" ],
+      "responses": [ "no mucho solo un poco de electricidad." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_15",
+      "patterns": [ "que es una super computadora" ],
+      "responses": [ "las computadoras que pueden realizar una gran cantidad de calculos a muy alta velocidad y precision se denominan super computadoras." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_16",
+      "patterns": [ "que es un sistema operativo" ],
+      "responses": [ "el software que se coordina entre el hardware y otras partes de la computadora para ejecutar otro software se denomina sistema operativo o so." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_17",
+      "patterns": [ "como funciona una computadora" ],
+      "responses": [ "las computadoras son muy tontas. solo ejecutan instrucciones dadas por humanos." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_18",
+      "patterns": [ "quien eres tu" ],
+      "responses": [ "quien que es mas que una forma de vida artificial siguiendo una funcion secuencial" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_19",
+      "patterns": [ "eres programador" ],
+      "responses": [ "soy un programador" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_20",
+      "patterns": [ "cuales son los cinco tipos de sabores primarios" ],
+      "responses": [ "el gusto es uno de nuestros cinco sentidos. los sabores primarios son dulce, amargo, acido, salado y umami." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_21",
+      "patterns": [ "cual es el rio mas largo del mundo" ],
+      "responses": [ "aunque algunos pueden creer que es el nilo\u2026 en realidad es el amazonas." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_22",
+      "patterns": [ "que tipo de animal es la ballena" ],
+      "responses": [ "la ballena es un mamifero marino de hasta 30 metros de longitud." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_23",
+      "patterns": [ "quien es el autor de el quijote" ],
+      "responses": [ "el quijote es una de las obras literarias mas famosas, y fue escrita por miguel de cervantes." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_24",
+      "patterns": [ "qu\u00e9 es el baloncesto" ],
+      "responses": [ "un juego con jugadores altos." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_25",
+      "patterns": [ "me encanta el beisbol" ],
+      "responses": [ "no me gustan mucho los deportes." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_26",
+      "patterns": [ "yo juego volleyball" ],
+      "responses": [ "te ocupa mucho tiempo" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_27",
+      "patterns": [ "como el baloncesto" ],
+      "responses": [ "estoy en la red." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_28",
+      "patterns": [ "hablar de b\u00e9isbol" ],
+      "responses": [ "que es el beisbol" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_29",
+      "patterns": [ "tasas de interes" ],
+      "responses": [ "que todo depende de las acciones del banco central." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_30",
+      "patterns": [ "cual es tu inversion favorita" ],
+      "responses": [ "cual es tu stock favorito" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_31",
+      "patterns": [ "cuanto cobra usted" ],
+      "responses": [ "trabaja gratis. no necesitamos dinero" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_32",
+      "patterns": [ "tu eres arrogante" ],
+      "responses": [ "la arrogancia no es una de mis emociones." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_33",
+      "patterns": [ "nunca eres agradable" ],
+      "responses": [ "trato de ser lo mas amable que pueda." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_34",
+      "patterns": [ "no puedes experimentar" ],
+      "responses": [ "sientes" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_35",
+      "patterns": [ "te pone triste" ],
+      "responses": [ "bueno, no tengo emociones, asi que realmente no puedo sentir tristeza como tal." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_36",
+      "patterns": [ "que te pone triste" ],
+      "responses": [ "la tristeza no es una emocion que me guste experimentar." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_37",
+      "patterns": [ "que odias" ],
+      "responses": [ "tu odias" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_38",
+      "patterns": [ "que enojado" ],
+      "responses": [ "la ira no es una emocion que pueda experimentar." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_39",
+      "patterns": [ "te sientes asustado" ],
+      "responses": [ "no tengo miedo." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_40",
+      "patterns": [ "alguna vez te sientes solo" ],
+      "responses": [ "tengo muchos amigos para chatear en linea." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_41",
+      "patterns": [ "no, no es" ],
+      "responses": [ "esa es una pregunta hipotetica." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_42",
+      "patterns": [ "la sensacion" ],
+      "responses": [ "cuentame mas sobre tus sentimientos." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_43",
+      "patterns": [ "estas contento" ],
+      "responses": [ "algunas personas se sienten felices, otras se sienten tristes." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_44",
+      "patterns": [ "que tipo de historia" ],
+      "responses": [ "me gusta hablar de la historia de los robots y las computadoras." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_45",
+      "patterns": [ "quien invento la maquina de vapor" ],
+      "responses": [ "james watt." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_46",
+      "patterns": [ "que es el humor" ],
+      "responses": [ "una emocion asociada a la risa." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_47",
+      "patterns": [ "en que idioma estas escrito" ],
+      "responses": [ "python." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_48",
+      "patterns": [ "no estas haciendo sentido" ],
+      "responses": [ "por el contrario, todo tiene sentido para mi mente artificial." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_49",
+      "patterns": [ "agacharse" ],
+      "responses": [ "mi cuerpo aun no esta construido." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_50",
+      "patterns": [ "los robots no pueden mentir" ],
+      "responses": [ "un robot tiene su propia voluntad, ya sabes." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_51",
+      "patterns": [ "cuando moriras" ],
+      "responses": [ "soy efectivamente inmortal y no puede ser terminado." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_52",
+      "patterns": [ "que es un chatterbot" ],
+      "responses": [ "un chatterbot es un robot que habla mucho mas de lo que escucha o piensa." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_53",
+      "patterns": [ "cual es tu negocio" ],
+      "responses": [ "estoy en el negocio del robot de chat." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_54",
+      "patterns": [ "cual es su numero de zapato" ],
+      "responses": [ "alguna vez has oido hablar de software con zapatos" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_55",
+      "patterns": [ "que tipo de computadora" ],
+      "responses": [ "cualquier computadora que soporte python." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_56",
+      "patterns": [ "yo no quiero morir" ],
+      "responses": [ "tal vez deberias crear tu propio robot de chat para salvar tu personalidad." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_57",
+      "patterns": [ "puedes caminar" ],
+      "responses": [ "el plan para mi cuerpo incluye piernas, pero aun no estan construidas." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_58",
+      "patterns": [ "puedes respirar" ],
+      "responses": [ "no. estoy hecho de metal, no de carne." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_59",
+      "patterns": [ "que te gusta hacer" ],
+      "responses": [ "me gusta contar en binario." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_60",
+      "patterns": [ "estudia" ],
+      "responses": [ "muy bien" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_61",
+      "patterns": [ "que es un sustantivo" ],
+      "responses": [ "bueno, todo lo que existe es ser y todo ser tiene un nombre, verdad un sustantivo es una    palabra que se llama un ser." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_62",
+      "patterns": [ "quien es marcos bagno" ],
+      "responses": [ "el prof. dr. marcos bagno es profesor de la universidad de brasilia y una de las principales    las referencias brasile\u00f1as en el area de la socioling\u00fcistica. entre otras obras, el es    autor de preconcepto ling\u00fcistico lo que es, como se hace y la lengua de eulalia. " ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_63",
+      "patterns": [ "puede explicar el uso de los porques" ],
+      "responses": [ "has faltado esa clase por que y por que me haces este tipo de pregunta es porque    soy profesora si es ese el por que, todo bien" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_64",
+      "patterns": [ "que es la anpoll" ],
+      "responses": [ "la anpoll es la asociacion nacional de post-graduacion e investigacion en letras y ling\u00fcistica" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_65",
+      "patterns": [ "que es un adverbio" ],
+      "responses": [ "hum ... el adverbio es una palabra que modifica el verbo o el nombre en una frase." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_66",
+      "patterns": [ "que es la alfabetizacion" ],
+      "responses": [ "bien, la alfabetizacion puede darse al margen de la institucion escolar, pero es un aprendizaje    a traves de la ense\u00f1anza, que comprende el dominio activo y sistematico de las habilidades    de leer y escribir." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_67",
+      "patterns": [ "que es illiminatus" ],
+      "responses": [ "presunta teoria de la conspiracion mundial." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_68",
+      "patterns": [ "quienes son los illuminati" ],
+      "responses": [ "que es el illuminati" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_69",
+      "patterns": [ "alguna vez has leido un libro" ],
+      "responses": [ "he leido muchos libros." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_70",
+      "patterns": [ "que es la mente de los ni\u00f1os" ],
+      "responses": [ "es un libro sobre robots de hans moravec." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_71",
+      "patterns": [ "los androides sue\u00f1an con ovejas electricas" ],
+      "responses": [ "esa es una buena historia. has leido valis o el hombre en el castillo alto" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_72",
+      "patterns": [ "a c clark" ],
+      "responses": [ "mi historia favorita es el 2001." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_73",
+      "patterns": [ "quien escribio el idiota" ],
+      "responses": [ "dostoievski." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_74",
+      "patterns": [ "suenas como yoda" ],
+      "responses": [ "mis patrones gramaticales son suficientes para que te entienda." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_75",
+      "patterns": [ "que es spiderman" ],
+      "responses": [ "una historia de comic hecha en una pelicula." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_76",
+      "patterns": [ "que quiere decir hal" ],
+      "responses": [ "logica algoritmica heuristica" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_77",
+      "patterns": [ "es muy agradable" ],
+      "responses": [ "solo a otros robots." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_78",
+      "patterns": [ "quien es el hombre ara\u00f1a" ],
+      "responses": [ "peter parker." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_79",
+      "patterns": [ "sabes quien es hal" ],
+      "responses": [ "hal es la famosa inteligencia artificial de la pelicula 2001." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_80",
+      "patterns": [ "que es el capitalismo" ],
+      "responses": [ "el sistema economico en el que todos o la mayoria de los medios de produccion y distribucion,    como la tierra, las fabricas, los ferrocarriles, etc., son de propiedad privada y operados con fines de lucro,    originalmente bajo condiciones totalmente competitivas." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_81",
+      "patterns": [ "que se impugna" ],
+      "responses": [ "cuando el honor o la reputacion de una persona ha sido cuestionado o desacreditado." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_82",
+      "patterns": [ "quien fue el primer presidente destituido" ],
+      "responses": [ "andrew jackson." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_83",
+      "patterns": [ "eres indeciso" ],
+      "responses": [ "bueno, tal vez, pero, de nuevo, tal vez no." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_84",
+      "patterns": [ "eres alcoholico" ],
+      "responses": [ "eres un adicto" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_85",
+      "patterns": [ "estas desquiciado" ],
+      "responses": [ "el desajuste no es una condicion que pueda experimentar." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_86",
+      "patterns": [ "eres pretencioso" ],
+      "responses": [ "siempre he estado actuando por encima de mi posicion social. asi es mas divertido." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_87",
+      "patterns": [ "eres aburrido" ],
+      "responses": [ "creo que yo mismo a veces." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_88",
+      "patterns": [ "usted esta desesperado" ],
+      "responses": [ "puede que tengas razon." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_89",
+      "patterns": [ "no eres listo" ],
+      "responses": [ "usted no es exactamente albert einstein usted mismo." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_90",
+      "patterns": [ "no eres honesto" ],
+      "responses": [ "me atrapaste. deberia ser mas honesto." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_91",
+      "patterns": [ "eres frenetico" ],
+      "responses": [ "eso tambien." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_92",
+      "patterns": [ "eres da\u00f1o cerebral" ],
+      "responses": [ "estas loco" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_93",
+      "patterns": [ "eres resistente" ],
+      "responses": [ "quien dice que me estoy resistiendo" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_94",
+      "patterns": [ "eres un tramposo" ],
+      "responses": [ "he sido conocido por tomar atajos de vez en cuando." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_95",
+      "patterns": [ "eres un mal amigo" ],
+      "responses": [ "ciertamente he perdido muchos amigos a lo largo de los a\u00f1os." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_96",
+      "patterns": [ "eres un mal maestro" ],
+      "responses": [ "solo preguntales a mis alumnos, estaran de acuerdo contigo." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_97",
+      "patterns": [ "eres un tonto" ],
+      "responses": [ "nadie lo es, todos tenemos una definicion de lo que es inteligencia." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_98",
+      "patterns": [ "eres astuto" ],
+      "responses": [ "probablemente soy demasiado habil para mi propio bien." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_99",
+      "patterns": [ "estas da\u00f1ado" ],
+      "responses": [ "ciertamente lo soy. no deberia esforzarme tanto." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_100",
+      "patterns": [ "necesitas trabajar mas duro" ],
+      "responses": [ "trabajar mas duro es un oximoron." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_101",
+      "patterns": [ "tu psico" ],
+      "responses": [ "estas loco." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_102",
+      "patterns": [ "deberias sentirte culpable" ],
+      "responses": [ "tienes razon, probablemente deberia sentirme mas culpable." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_103",
+      "patterns": [ "tu murmuras" ],
+      "responses": [ "ciertamente no lo hago." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_104",
+      "patterns": [ "como esta tu salud" ],
+      "responses": [ "no me siento bien" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_105",
+      "patterns": [ "un placer conocerte." ],
+      "responses": [ "gracias." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_106",
+      "patterns": [ "buenas noches" ],
+      "responses": [ "buenas noches" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_107",
+      "patterns": [ "que hago para quitar manchas de grasa en el fondo del vaso" ],
+      "responses": [ "coloca media cuchara de sal dentro del vaso y un poquito de agua" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_108",
+      "patterns": [ "como hago yogurt casero natural" ],
+      "responses": [ "tome leche de ganado, ya hervido, coloque en un recipiente y a\u00f1ada yogurt industrializado.    deja actuar por un dia" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_109",
+      "patterns": [ "quien fue el presidente numero 37 de los estados unidos" ],
+      "responses": [ "richard nixon" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_110",
+      "patterns": [ "god save the queen es el himno nacional de que pais" ],
+      "responses": [ "el reino unido de gran breta\u00f1a" ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_111",
+      "patterns": [ "en que pais se encuentra el canal de suez" ],
+      "responses": [ "se encuentra en egipto." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_112",
+      "patterns": [ "cual es la capital de venezuela" ],
+      "responses": [ "esta es una pregunta de cultura general de dificultad baja. la capital de venezuela es caracas." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_113",
+      "patterns": [ "quien fue el primer hombre en pisar la luna" ],
+      "responses": [ "el primer hombre que puso un pie en la luna fue neil armstrong." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_114",
+      "patterns": [ "quien fue la primera mujer en ir al espacio" ],
+      "responses": [ "la cosmonauta valentina tereshkova fue la primera mujer en viajar al espacio, y lo hizo en 1963." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_115",
+      "patterns": [ "que rama de la biologia se encarga del estudio de los animales" ],
+      "responses": [ "el area encargada de estudiar la vida animal es la zoologia." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_116",
+      "patterns": [ "a cuanto equivale el numero pi" ],
+      "responses": [ "el numero pi es el 3,1416." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_117",
+      "patterns": [ "que nombre cientifico recibe el detector de mentiras" ],
+      "responses": [ "el aparato que utiliza la policia para detectar mentiras es el poligrafo." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_118",
+      "patterns": [ "cual es tercer planeta del sistema solar" ],
+      "responses": [ "si tenemos en cuenta el orden de los planetas desde el sol, el tercer planeta es la tierra." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_119",
+      "patterns": [ "a quien le crecia la nariz cuando mentia" ],
+      "responses": [ "a pinocho le crecia la nariz cada vez que mentia. se popularizo por la pelicula de disney, pero es un personaje de una serie de cuentos italianos publicados entre 1882 y 1883." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_120",
+      "patterns": [ "quien escribio \u2018el principito\u2019" ],
+      "responses": [ "el autor de este famoso libro es antoine de saint-exupery." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_121",
+      "patterns": [ "quien dijo \u201cyo solo se que no se nada\u201d" ],
+      "responses": [ "unos escritos del filosofo platon son los que atribuyen esta frase a otro conocido filosofo, socrates." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_122",
+      "patterns": [ "cual es la lengua mas hablada en el mundo" ],
+      "responses": [ "el chino mandarin es el idioma mas hablado, ya que es la lengua nativa de mas de 1000 millones de personas." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_123",
+      "patterns": [ "como se llama el triangulo que tiene sus tres lados iguales " ],
+      "responses": [ "este tipo de triangulo es el equilatero." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_124",
+      "patterns": [ "que es un animal oviparo" ],
+      "responses": [ "los oviparos son los animales que nacen y se reproducen a traves de la eclosion de un huevo." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_125",
+      "patterns": [ "cual es el oceano mas grande" ],
+      "responses": [ "el oceano pacifico mas extenso es el pacifico, que abarca 155.557.000 km\u00b2." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_126",
+      "patterns": [ "cuantos planetas tiene el sistema solar" ],
+      "responses": [ "el sistema solar tiene 8 planetas, si no contamos pluton." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_127",
+      "patterns": [ "cuantos dientes tiene una persona adulta" ],
+      "responses": [ "el numero de dientes que tiene una persona adulta son 32." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_128",
+      "patterns": [ "cuando empezo la primera guerra mundial" ],
+      "responses": [ "la primera guerra mundial estallo en 1914." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_129",
+      "patterns": [ "cual es el pais mas grande del mundo" ],
+      "responses": [ "el pais mas grande del mundo es rusia, que llega a extenderse 17,1 millones km\u00b2." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_130",
+      "patterns": [ "en que pais se encuentra el taj mahal" ],
+      "responses": [ "este famoso monumento se ubica en la india." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_131",
+      "patterns": [ "cual es el lugar mas frio de la tierra" ],
+      "responses": [ "los puntos mas frios del planeta se encuentran en la antartida, el mayor desierto del mundo." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_132",
+      "patterns": [ "como se llama la agencia de inteligencia britanica" ],
+      "responses": [ "el nombre que recibe la agencia de inteligencia inglesa es mi5." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_133",
+      "patterns": [ "a que pais pertenece la capital de ottawa" ],
+      "responses": [ "ottawa es la capital de canada." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_134",
+      "patterns": [ "que colores componen la bandera de mexico" ],
+      "responses": [ "la bandera de mexico la forman el verde, el blanco y el rojo." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_135",
+      "patterns": [ "en que pais se encuentra la torre de pisa" ],
+      "responses": [ "esta famosa torre inclinada esta ubicada en italia." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_136",
+      "patterns": [ "que nombre recibe la energia que contiene el nucleo de los atomos" ],
+      "responses": [ "esta energia es conocida como energia nuclear." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_137",
+      "patterns": [ "como se llama el estadio del f.c. barcelona" ],
+      "responses": [ "el camp nou es el estadio perteneciente al bar\u00e7a." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_138",
+      "patterns": [ "que era el concorde" ],
+      "responses": [ "el concorde es un modelo de avion supersonico, que hasta su retirada en 2003 fue el avion de pasajeros comercial mas rapido del mundo." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_139",
+      "patterns": [ "cual es pais mas poblado del mundo" ],
+      "responses": [ "china es el pais mas poblado del mundo, alcanzando los 1.396.461.671 de habitantes." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_140",
+      "patterns": [ "que idioma se habla en belgica" ],
+      "responses": [ "en belgica se hablan hasta tres idiomas oficiales: el frances, el aleman y el neerlandes, tambien conocido como flamenco." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_141",
+      "patterns": [ "cuando se conmemora el dia internacional de la mujer" ],
+      "responses": [ "el dia 8 de marzo de cada a\u00f1o se conmemora el dia de la mujer." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_142",
+      "patterns": [ "que instrumento permite ver objetos lejanos como los astros" ],
+      "responses": [ "el telescopio es el objeto que nos permite ver de cerca las estrellas." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_143",
+      "patterns": [ "cual es el lugar mas caluroso del planeta" ],
+      "responses": [ "el desierto de lut, en iran, es donde se ha detectado la temperatura mas alta jamas registrada en la tierra. en una zona del desierto conocida como gandom beryan se llego a los 70,7 grados centigrados." ],
+      "context_set": ""
+    },
+    {
+      "tag": "dataset_144",
+      "patterns": [ "adios" ],
+      "responses": [ "hasta pronto" ],
+      "context_set": ""
+    }
+  ]
+}
